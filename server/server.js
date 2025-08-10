@@ -15,7 +15,7 @@ const app = express();
 // app.use(cors());
 app.use(
   cors({
-    origin: "",
+    origin: "https://render-frontend-6im3.onrender.com",
     methods: "GET,POST,PUT,DELETE",
     credentials: true,
   })
